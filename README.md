@@ -1,5 +1,5 @@
 # Vamsi Mohan
-** SRE - Site Reliability Engineer
+**SRE** - Site Reliability Engineer
 
 [Email](vamsimohan@pm.me) / [Website](https://github.com/mohanvamc/) / [LinkedIn](https://www.linkedin.com/in/mohanvamsi/) / [GitHub](https://github.com/mohanvamc/)
 
@@ -10,12 +10,12 @@
 
 - Note : I have working knowledge with these technologies below with expertise in few.
 
-- **_DevOps Tools & Cloud Platforms :_** Terraform, Hashicorp Vault, Docker, Kubernetes, GitLab , AWS , GCP, Azure
-- **_Operating Systems:_** Amazon Linux, Core OS , RHEL 7,6 , *nix , Solaris, Windows
-- **_Database Technlogies:_** Postgress, MySql, Oracle .
-- **_Web Technlogies:_** Nginix, Apache, Tomcat, LAMP stack, Webshphere ,Weblogic.
-- **_Monitoring Tools:_** Dynatrace, DataDog, Loggly, Prometheus, Nagios , Opsgenie, Site 24x7 , Status Page
-- **_Ticketing & Collaboration Tools:_** Service Now , Jira , Confluence , Gsuite , Office 365 , Slack , MS Teams.
+- **DevOps Tools & Cloud Platforms:** Terraform, Hashicorp Vault, Docker, Kubernetes, GitLab , AWS , GCP, Azure
+- **Operating Systems:** Amazon Linux, Core OS , RHEL 7,6 , *nix , Solaris, Windows
+- **Database Technlogies:** Postgress, MySql, Oracle .
+- **Web Technlogies:** Nginix, Apache, Tomcat, LAMP stack, Webshphere ,Weblogic.
+- **Monitoring Tools:** Dynatrace, DataDog, Loggly, Prometheus, Nagios , Opsgenie, Site 24x7 , Status Page
+- **Ticketing & Collaboration Tools:** Service Now , Jira , Confluence , Gsuite , Office 365 , Slack , MS Teams.
 
 ## 👩🏼‍💻 Certifications
 - Terraform Associate (HashiCorp), RHCSA, RHCE, SCSA, SCNA, ITIL
