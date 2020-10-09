@@ -1,8 +1,5 @@
 # Vamsi Mohan
-**SRE - Site Reliability Engineer**
-
-[Email](vamsimohan@pm.me) / [Website](https://github.com/mohanvamc/) / [LinkedIn](https://www.linkedin.com/in/mohanvamsi/) / [GitHub](https://github.com/mohanvamc/)
-
+**SRE - Site Reliability Engineer** [Email](vamsimohan@pm.me) / [Website](https://github.com/mohanvamc/) / [LinkedIn](https://www.linkedin.com/in/mohanvamsi/) / [GitHub](https://github.com/mohanvamc/)
 - **Currently Infrastructure as Code practitioner and SRE**
 - **Past Roles: Unix Engineering Specialist, Unix Admin & Technical Lead , DataCenter Build Engineer**
 
