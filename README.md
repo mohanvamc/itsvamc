@@ -13,11 +13,11 @@
 - **Monitoring Tools:** Dynatrace, DataDog, Loggly, Prometheus, Nagios , Opsgenie, Site 24x7 , Status Page
 - **Ticketing & Collaboration Tools:** Service Now , Jira , Confluence , Gsuite , Office 365 , Slack , MS Teams.
 
-## 🎓 Certifications
+## 🧑‍🎓Certifications
 - Terraform Associate (HashiCorp), RHCSA, RHCE, SCSA, SCNA, ITIL
 -  Architecting with Google Cloud Platform Specialization (online course) & Google Cloud Platform (GCP) SysOps (online course)
 
-## 🎓 Academic Qulifications
+## 🧑‍🎓Academic Qulifications
 - Masters in Computer Applications
 - Bachelors in Computers Science & Statistics
 
