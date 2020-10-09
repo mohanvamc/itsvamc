@@ -28,7 +28,7 @@
 ## 👩🏼‍💻 Professional Experience
 
 **Site Reliability Engineer** @ [Mambu](http://mambu.com/) _(May 2018 - Present)_ <br>
-SAAS Banking Platform.
+**SAAS Banking Platform**
 
 - Write Infrastructure As Code (IaC) using Terraform for multicloud
 - Support application and infrastructure release using GitLab pipelines
@@ -38,7 +38,7 @@ SAAS Banking Platform.
 <br><br>
 
 **Engineering Specialist** @ [Element14](https://sg.element14.com/) _(Feb 2013 - May 2018)_ <br>
-Technology Products Distributor.
+**Technology Products Distributor**
 - Responsible for managing companies Unix Infra during APAC work hours.
 - Support over 500 + Physical and Over 1500 Virtual Linux / ESX Servers.
 - Handle Major P1 /P2 Incidents , review changes in CAB Meetings
@@ -48,14 +48,15 @@ Technology Products Distributor.
 <br><br>
 
 **Unix SME / Technical Lead** @ [UBS AG](https://www.ubs.com/sg) _(Mar 2009 - Feb 2013 Employer Cognizant )_ <br>
-Investment Bank .
+**Investment Bank**
 - Solaris / *Nix Support for L2 / L3 issues , handling incidents and RCA.
 - SME for Wealth Manageent Amrericas Unix Infra
 - OS Installs, Patches , hardware fixes for servers / storages .
 - Planned and Breakfix changes / Restores using Veritas Netbackups
 <br><br>
+
 **Senior Systems Engineer** @ [Locuz](https://www.locuz.com/in/) _(Jun 2007 - Mar 2009)_ <br>
-DataCenter and HPC Solutions
+**DataCenter and HPC Solutions**
 
 - Administration of Solaris servers LDOMs, ZFS , LDAP ,DNS etc and remote and onsite support.
 - Rack ,Cable Install Solaris Servers , storages, and other Hardware in Client Data DataCenters
