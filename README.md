@@ -28,7 +28,7 @@
 
 ## 👨‍💻Professional Experience
 
-**Site Reliability Engineer** @ [Mambu](http://mambu.com/) _(May 2018 - Present)_ <br>
+**Site Reliability Engineer** @ [Mambu](http://mambu.com/) _(May 2018 - Present - Singapore )_ <br>
 **SAAS Banking Platform**
 - Write Infrastructure As Code (IaC) using Terraform for multicloud
 - Support application and infrastructure release using GitLab pipelines
@@ -37,7 +37,7 @@
 - Monitor / Manage / Handle incidents during APAC business hours  - Working over new POC and client requirements to help delivery and sales teams
 <br><br>
 
-**Engineering Specialist** @ [Element14](https://sg.element14.com/) _(Feb 2013 - May 2018)_ <br>
+**Engineering Specialist** @ [Element14](https://sg.element14.com/) _(Feb 2013 - May 2018 - Singapore )_ <br>
 **Technology Products Distributor**
 - Responsible for managing companies Unix Infra during APAC work hours.
 - Support over 500 + Physical and Over 1500 Virtual Linux / ESX Servers.
@@ -47,7 +47,7 @@
 - Support Companys Ecomm Site and PCP (payments card processing systems)
 <br><br>
 
-**Unix SME / Technical Lead** @ [UBS AG](https://www.ubs.com/sg) _(Mar 2009 - Feb 2013 Employer Cognizant )_ <br>
+**Unix SME / Technical Lead** @ [UBS AG](https://www.ubs.com/sg) _(Mar 2009 - Feb 2013 Employer Cognizant - Sinagpore & India )_ <br>
 **Investment Bank**
 - Solaris / *Nix Support for L2 / L3 issues , handling incidents and RCA.
 - SME for Wealth Manageent Amrericas Unix Infra
@@ -55,7 +55,7 @@
 - Planned and Breakfix changes / Restores using Veritas Netbackups
 <br><br>
 
-**Senior Systems Engineer** @ [Locuz](https://www.locuz.com/in/) _(Jun 2007 - Mar 2009)_ <br>
+**Senior Systems Engineer** @ [Locuz](https://www.locuz.com/in/) _(Jun 2007 - Mar 2009 - India )_ <br>
 **DataCenter and HPC Solutions**
 - Administration of Solaris servers LDOMs, ZFS , LDAP ,DNS etc and remote and onsite support.
 - Rack ,Cable Install Solaris Servers , storages, and other Hardware in Client Data DataCenters
