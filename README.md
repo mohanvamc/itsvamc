@@ -7,11 +7,9 @@
 - **Past Roles: Unix Engineering Specialist, Unix Admin & Technical Lead , DataCenter Build Engineer**
 
 ## 👨‍💻Technical Skills
-
 - I have worked with below tools and technologies and gained expertise in few like Infra automation tools,*nix. etc.
-
 - **DevOps Tools & Cloud Platforms:** Terraform, Hashicorp Vault, Docker, Kubernetes, GitLab , AWS , GCP, Azure
-- **Operating Systems:** Amazon Linux, Core OS , RHEL 7,6 , *nix , Solaris, Windows
+- **Operating Systems:** Container OS, Amazon Linux, RHEL , *nix , Solaris, Windows
 - **Database Technlogies:** Postgress, MySql, Oracle .
 - **Programming Languages:** Bash (intermediatory ), Python, GO (beginner)
 - **Web Technlogies:** Nginix, Apache, Tomcat, LAMP stack, Webshphere ,Weblogic.
