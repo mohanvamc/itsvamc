@@ -1,10 +1,10 @@
 # Vamsi Mohan
-**SRE** - Site Reliability Engineer
+**SRE - Site Reliability Engineer**
 
 [Email](vamsimohan@pm.me) / [Website](https://github.com/mohanvamc/) / [LinkedIn](https://www.linkedin.com/in/mohanvamsi/) / [GitHub](https://github.com/mohanvamc/)
 
-**Currently Infrastructure as Code practitioner and SRE**
-**Past Roles: Unix Engineering Specialist, Unix Admin & Technical Lead , DataCenter Build Engineer**
+- **Currently Infrastructure as Code practitioner and SRE**
+- **Past Roles: Unix Engineering Specialist, Unix Admin & Technical Lead , DataCenter Build Engineer**
 
 ## 👨‍💻Technical Skills
 
@@ -26,7 +26,7 @@
 - Masters in Computer Applications
 - Bachelors in Computers Science & Statistics
 
-##‍ 👨‍💻 Professional Experience
+## 👨‍💻Professional Experience
 
 **Site Reliability Engineer** @ [Mambu](http://mambu.com/) _(May 2018 - Present)_ <br>
 **SAAS Banking Platform**
