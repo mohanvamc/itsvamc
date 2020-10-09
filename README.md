@@ -3,33 +3,33 @@
 
 [Email](vamsimohan@pm.me) / [Website](https://github.com/mohanvamc/) / [LinkedIn](https://www.linkedin.com/in/mohanvamsi/) / [GitHub](https://github.com/mohanvamc/)
 
-** Currently Infrastructure as Code practitioner and SRE .
-** Past Roles Unix Engineering Specialist, Unix Admin & Technical Lead , DataCenter Build Engineer
+**Currently Infrastructure as Code practitioner and SRE**
+**Past Roles: Unix Engineering Specialist, Unix Admin & Technical Lead , DataCenter Build Engineer**
 
-## 👩🏼‍💻 Technical Skills
+## 👨‍💻Technical Skills
 
-- Note : I have working knowledge with these technologies below with expertise in few.
+- I have worked with below tools and technologies and gained expertise in few like Infra automation tools,*nix. etc.
 
 - **DevOps Tools & Cloud Platforms:** Terraform, Hashicorp Vault, Docker, Kubernetes, GitLab , AWS , GCP, Azure
 - **Operating Systems:** Amazon Linux, Core OS , RHEL 7,6 , *nix , Solaris, Windows
 - **Database Technlogies:** Postgress, MySql, Oracle .
+- **Programming Languages:** Bash (intermediatory ), Python, GO (beginner)
 - **Web Technlogies:** Nginix, Apache, Tomcat, LAMP stack, Webshphere ,Weblogic.
 - **Monitoring Tools:** Dynatrace, DataDog, Loggly, Prometheus, Nagios , Opsgenie, Site 24x7 , Status Page
 - **Ticketing & Collaboration Tools:** Service Now , Jira , Confluence , Gsuite , Office 365 , Slack , MS Teams.
 
-## 👩🏼‍💻 Certifications
+## 🎓 Certifications
 - Terraform Associate (HashiCorp), RHCSA, RHCE, SCSA, SCNA, ITIL
 -  Architecting with Google Cloud Platform Specialization (online course) & Google Cloud Platform (GCP) SysOps (online course)
 
-## 👩🏼‍💻 Academic Qulifications
+## 🎓 Academic Qulifications
 - Masters in Computer Applications
 - Bachelors in Computers Science & Statistics
 
-## 👩🏼‍💻 Professional Experience
+##‍ 👨‍💻 Professional Experience
 
 **Site Reliability Engineer** @ [Mambu](http://mambu.com/) _(May 2018 - Present)_ <br>
 **SAAS Banking Platform**
-
 - Write Infrastructure As Code (IaC) using Terraform for multicloud
 - Support application and infrastructure release using GitLab pipelines
 - Migrating old monolith infrastructure to new micro-services based architecture
@@ -57,7 +57,6 @@
 
 **Senior Systems Engineer** @ [Locuz](https://www.locuz.com/in/) _(Jun 2007 - Mar 2009)_ <br>
 **DataCenter and HPC Solutions**
-
 - Administration of Solaris servers LDOMs, ZFS , LDAP ,DNS etc and remote and onsite support.
 - Rack ,Cable Install Solaris Servers , storages, and other Hardware in Client Data DataCenters
 - Jumpstart / Kickstart PXE installs of 100's of servers .
