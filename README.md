@@ -1,7 +1,7 @@
 # Vamsi Mohan
 **SRE - Site Reliability Engineer** 
 [Email](mailto:vamsimohan@pm.me) / [Website](https://mohanvamc.github.io/itsvamc/) / [LinkedIn](https://www.linkedin.com/in/mohanvamsi/) / [GitHub](https://github.com/mohanvamc/) / [Print PDF](https://github.com/mohanvamc/itsvamc/blob/e8bbd6ff346852d080a7e8ad2846e63174fd084b/VamsiMohan.pdf)
-- **Currently Infrastructure as Code practitioner and SRE**
+- **SRE Infrastructure as Code practitioner (IaC)**
 - **Past Roles: Unix Engineering Specialist, Unix SME, DataCenter Systems Engineer**
 
 ## 👨‍💻Technical Skills
