@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ profile.name }} | Resume</title>
+<style>{% include "base_style.css" %}</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero" style="padding-top:56px;">
+  <h1>{{ profile.name }}</h1>
+  <p class="tagline">{{ profile.title }} &mdash; {{ profile.location }}</p>
+  <div class="btn-row">
+    <a class="btn btn-primary" href="{{ profile.resume_pdf }}">Download PDF</a>
+    <a class="btn btn-outline" href="index.html">&larr; Back to site</a>
+  </div>
+</header>
+
+<section>
+  <h2>Summary</h2>
+  {{ about_html }}
+</section>
+
+<section>
+  <h2>Skills</h2>
+  {% for group in skills %}
+  <div class="skill-group">
+    <h3>{{ group.category }}</h3>
+    <p>{{ group.skills | join(", ") }}</p>
+  </div>
+  {% endfor %}
+</section>
+
+<section>
+  <h2>Experience</h2>
+  {% for job in experience %}
+  <div class="job">
+    <div class="job-head">
+      <span class="role">{{ job.title }} &middot; {{ job.company }}</span>
+      <span class="dates">{{ job.dates }} &middot; {{ job.location }}</span>
+    </div>
+    <div class="context">{{ job.context }}</div>
+    {{ job.bullets_html }}
+  </div>
+  {% endfor %}
+</section>
+
+<section>
+  <h2>Certifications &amp; Education</h2>
+  {{ credentials.certifications }}
+  {{ credentials.education }}
+</section>
+
+<footer>Last updated: {{ profile.last_updated }}</footer>
+
+</div>
+</body>
+</html>

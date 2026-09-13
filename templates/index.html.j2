@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ profile.name }} | {{ profile.title }}</title>
+<meta name="description" content="{{ profile.tagline }}">
+<style>{% include "base_style.css" %}</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">Hi, my name is</div>
+  <h1>{{ profile.name }}</h1>
+  <p class="tagline">{{ profile.title }} &mdash; {{ profile.tagline }}</p>
+  <div class="btn-row">
+    <a class="btn btn-outline" href="{{ profile.github }}">GitHub</a>
+    <a class="btn btn-outline" href="{{ profile.linkedin }}">LinkedIn</a>
+    <a class="btn btn-outline" href="mailto:{{ profile.email }}">Email</a>
+  </div>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  {{ about_html }}
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    {% for p in projects %}
+    <div class="card">
+      <h3>{{ p.title }}</h3>
+      <p>{{ p.description_html | replace("<p>", "") | replace("</p>", "") }}</p>
+      <div class="tags">
+        {% for tag in p.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+      </div>
+      <div class="btn-row">
+        {% if p.code_url %}<a href="{{ p.code_url }}">Code</a>{% endif %}
+        {% if p.demo_url %}<a href="{{ p.demo_url }}">Demo</a>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills &amp; Technologies</h2>
+  {% for group in skills %}
+  <div class="skill-group">
+    <h3>{{ group.category }}</h3>
+    <p>{{ group.skills | join(", ") }}</p>
+  </div>
+  {% endfor %}
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  {% for job in experience %}
+  <div class="job">
+    <div class="job-head">
+      <span class="role">{{ job.title }} &middot; <a href="{{ job.company_url }}">{{ job.company }}</a></span>
+      <span class="dates">{{ job.dates }} &middot; {{ job.location }}</span>
+    </div>
+    <div class="context">{{ job.context }}</div>
+    {{ job.bullets_html }}
+  </div>
+  {% endfor %}
+</section>
+
+<section id="credentials">
+  <h2>Certifications &amp; Education</h2>
+  <div class="skill-group">
+    <h3>Certifications</h3>
+    {{ credentials.certifications }}
+  </div>
+  <div class="skill-group">
+    <h3>Education</h3>
+    {{ credentials.education }}
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Curriculum Vitae</h2>
+  <div class="contact-card">
+    <p>Download my complete professional profile, or view it as a webpage.</p>
+    <div class="btn-row" style="justify-content:center;">
+      <a class="btn btn-primary" href="{{ profile.resume_pdf }}">Download Full CV</a>
+      <a class="btn btn-outline" href="resume.html">View Online Resume</a>
+    </div>
+    <p class="meta">Last updated: {{ profile.last_updated }}</p>
+  </div>
+</section>
+
+<footer>
+  &copy; {{ profile.name }}. Built with Python, Markdown &amp; Jinja2 &mdash; hosted free on GitHub Pages.
+</footer>
+
+</div>
+</body>
+</html>

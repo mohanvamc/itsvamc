@@ -1,61 +1,43 @@
-# Vamsi Mohan
-**SRE - Site Reliability Engineer** 
-[Email](mailto:vamsimohan@pm.me) / [GitHub](https://mohanvamc.github.io/itsvamc/) / [LinkedIn](https://www.linkedin.com/in/mohanvamsi/) /[Download PDF](https://github.com/mohanvamc/itsvamc/blob/e8bbd6ff346852d080a7e8ad2846e63174fd084b/VamsiMohan.pdf)
-- **SRE Infrastructure as Code practitioner (IaC)**
-- **Past Roles: Unix Engineering Specialist, Unix SME, DataCenter Systems Engineer**
+# itsvamc
 
-## 👨‍💻Technical Skills
-- I have worked with below tools and technologies and gained expertise in few like Infra automation tools,*nix. etc.
-- **DevOps Tools & Cloud Platforms:** Terraform, Hashicorp Vault, Docker, Kubernetes, GitLab , AWS , GCP, Azure
-- **Operating Systems:** Container OS, Amazon Linux, RHEL , *nix , Solaris, Windows
-- **Database Technlogies:** Postgress, MySql, Oracle .
-- **Programming Languages:** Bash (intermediatory ), Python, GO (beginner)
-- **Web Technlogies:** Nginix, Apache, Tomcat, LAMP stack, Webshphere ,Weblogic.
-- **Monitoring Tools:** Dynatrace, DataDog, Loggly, Prometheus, Nagios , Opsgenie, Site 24x7 , Status Page
-- **Ticketing & Collaboration Tools:** Service Now , Jira , Confluence , Gsuite , Office 365 , Slack , MS Teams.
+My personal portfolio/CV site, hosted free on GitHub Pages.
 
-## 🧑‍🎓Certifications
-- Terraform Associate (HashiCorp), RHCSA, RHCE, SCSA, SCNA, ITIL
--  Architecting with Google Cloud Platform Specialization (online course) & Google Cloud Platform (GCP) SysOps (online course)
+**Live site:** https://mohanvamc.github.io/itsvamc/
 
-## 🧑‍🎓Academic Qulifications
-- Masters in Computer Applications
-- Bachelors in Computers Science & Statistics
+## How this works
 
-## 👨‍💻Professional Experience
+All real content lives in plain Markdown/YAML files under `content/`:
 
-**Site Reliability Engineer** @ [Mambu](http://mambu.com/) _(May 2018 - Present - Singapore )_ <br>
-**SAAS Banking Platform**
-- Write Infrastructure As Code (IaC) using Terraform for multicloud
-- Support application and infrastructure release using GitLab pipelines
-- Migrating old monolith infrastructure to new micro-services based architecture
-- Work with Release management Team on product Deployments
-- Monitor / Manage / Handle incidents during APAC business hours  - Working over new POC and client requirements to help delivery and sales teams
-<br><br>
+- `content/profile.yml` — name, title, tagline, contact links, resume path
+- `content/about.md` — the About section
+- `content/skills.md` — skills grouped under `## Category` headings
+- `content/experience.md` — work history, one job per block separated by `===`
+- `content/credentials.md` — certifications and education
+- `content/projects/*.md` — one file per project; add a new `.md` file here to add a project card
+- `assets/resume/` — the downloadable resume PDF
 
-**Engineering Specialist** @ [Element14](https://sg.element14.com/) _(Feb 2013 - May 2018 - Singapore )_ <br>
-**Technology Products Distributor**
-- Responsible for managing companies Unix Infra during APAC work hours.
-- Support over 500 + Physical and Over 1500 Virtual Linux / ESX Servers.
-- Handle Major P1 /P2 Incidents , review changes in CAB Meetings
-- Automate sysadmin tasks using Bash Scripts , Ansible , Docker , Redhat Satellite, Jenkins , Cobbler Kickstart .
-- Manage Local APAC Dataceneter including racking, cabling , os installs for IBM x Series servers, storages, tape libraries
-- Support Companys Ecomm Site and PCP (payments card processing systems)
-<br><br>
+To edit the site, just edit these Markdown/YAML files (works great from Obsidian or any text editor) — no HTML or JS required.
 
-**Unix SME / Technical Lead** @ [UBS AG](https://www.ubs.com/sg) _(Mar 2009 - Feb 2013 Employer Cognizant - Sinagpore & India )_ <br>
-**Investment Bank**
-- Solaris / *Nix Support for L2 / L3 issues , handling incidents and RCA.
-- SME for Wealth Manageent Amrericas Unix Infra
-- OS Installs, Patches , hardware fixes for servers / storages .
-- Planned and Breakfix changes / Restores using Veritas Netbackups
-<br><br>
+## Building
 
-**Senior Systems Engineer** @ [Locuz](https://www.locuz.com/in/) _(Jun 2007 - Mar 2009 - India )_ <br>
-**DataCenter and HPC Solutions**
-- Administration of Solaris servers LDOMs, ZFS , LDAP ,DNS etc and remote and onsite support.
-- Rack ,Cable Install Solaris Servers , storages, and other Hardware in Client Data DataCenters
-- Jumpstart / Kickstart PXE installs of 100's of servers .
-- Parts Replacement for Sun x86 , SPARC  , HP , Dell servers ,
-- Netapp and ESX storages configuration and installation.
-<br><br>
+After editing content, regenerate the static site:
+
+```bash
+pip install -r requirements.txt
+python3 build.py
+```
+
+This writes `index.html` and `resume.html` at the repo root, which is what GitHub Pages serves directly from the `gh-pages` branch.
+
+A GitHub Action (`.github/workflows/build.yml`) also runs this automatically on every push to `gh-pages`, so pushing content changes alone is enough — the build and commit of the generated HTML happens for you.
+
+## Repo layout
+
+```
+content/        source of truth (Markdown/YAML you edit)
+templates/      Jinja2 HTML templates + CSS (rarely touched)
+assets/         resume PDF, images
+build.py        the whole build script (~130 lines, pure Python)
+index.html      generated output — served by GitHub Pages, do not hand-edit
+resume.html     generated output — served by GitHub Pages, do not hand-edit
+```
