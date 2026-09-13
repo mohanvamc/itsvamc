@@ -27,9 +27,9 @@ pip install -r requirements.txt
 python3 build.py
 ```
 
-This writes `index.html` and `resume.html` at the repo root, which is what GitHub Pages serves directly from the `gh-pages` branch.
+This writes `index.html` and `resume.html` into `_site/` for local preview (gitignored — never committed).
 
-A GitHub Action (`.github/workflows/build.yml`) also runs this automatically on every push to `gh-pages`, so pushing content changes alone is enough — the build and commit of the generated HTML happens for you.
+A GitHub Action (`.github/workflows/build.yml`) runs this automatically on every push to `gh-pages` and deploys the result straight to GitHub Pages (via the official `actions/deploy-pages` action) — so pushing content changes alone is enough, nothing is ever committed back to the repo.
 
 ## Repo layout
 
@@ -38,6 +38,5 @@ content/        source of truth (Markdown/YAML you edit)
 templates/      Jinja2 HTML templates + CSS (rarely touched)
 assets/         resume PDF, images
 build.py        the whole build script (~130 lines, pure Python)
-index.html      generated output — served by GitHub Pages, do not hand-edit
-resume.html     generated output — served by GitHub Pages, do not hand-edit
+_site/          generated output (gitignored) — built fresh by CI on every push
 ```

@@ -22,7 +22,7 @@ from jinja2 import Environment, FileSystemLoader
 ROOT = Path(__file__).parent
 CONTENT = ROOT / "content"
 TEMPLATES = ROOT / "templates"
-OUTPUT = ROOT  # this branch (gh-pages) is served directly from its root by GitHub Pages
+OUTPUT = ROOT / "_site"  # uploaded as the Pages artifact by the GitHub Actions workflow
 
 md = markdown.Markdown(extensions=["extra", "sane_lists"])
 
@@ -114,9 +114,16 @@ def build():
         "credentials": credentials,
     }
 
+    OUTPUT.mkdir(exist_ok=True)
+
     for template_name, out_name in [("index.html.j2", "index.html"), ("resume.html.j2", "resume.html")]:
         html = env.get_template(template_name).render(**context)
         (OUTPUT / out_name).write_text(html)
+
+    dest_assets = OUTPUT / "assets"
+    if dest_assets.exists():
+        shutil.rmtree(dest_assets)
+    shutil.copytree(ROOT / "assets", dest_assets)
 
     (OUTPUT / ".nojekyll").touch()
 
